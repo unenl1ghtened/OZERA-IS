@@ -193,7 +193,7 @@ footer {
 }
 
 .section {
-  height: calc(100vh - 188px); /* 188px - это высота шапки и футера */
+  height: calc(100vh - 120px);
   overflow-y: auto;
 }
 
