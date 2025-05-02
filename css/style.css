@@ -193,7 +193,7 @@ footer {
 }
 
 .section {
-  height: calc(100vh - 120px);
+  height: calc(90vh - 188px);
   overflow-y: auto;
 }
 
