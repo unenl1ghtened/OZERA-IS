@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ввод данных для озёр</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="data__aside">
+        <div class="data__aside-container">
+          <div class="data__aside-logo">
+            <img src="./img/ozera-is-logo.png" alt="" />
+            <span>OZERA IS</span>
+          </div>
+          <nav class="data__aside-nav">
+            <ul class="data__aside-list">
+              <li class="data__aside-item">
+                <a class="data__aside-link current" href=""> Главная </a>
+              </li>
+              <li class="data__aside-item">
+                <a class="data__aside-link" href=""> Инструкции </a>
+              </li>
+              <li class="data__aside-item">
+                <a class="data__aside-link" href=""> Выйти </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </aside>
+      <div class="wrapper">
+        <header class="header">
+          <div class="header__container">
+            <div class="header__top">
+              <h1 class="header__title">Ввод данных для озёр</h1>
+              <div class="header__user-cont">
+                <time class="header__datetime" datetime="2025-03-31T12:23"
+                  >12:23 Среда 31.03.2025</time
+                >
+                <div class="header__user-info">
+                  <img src="./img/user-avatar.svg" alt="" />
+                  <span>Иванов А. В.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header__toggle">
+            <button
+              data-target="section1"
+              class="header__btn header__btn--green"
+            >
+              <span class="header__btn-text header__btn-text--geren"
+                >Изумрудное</span
+              >
+            </button>
+            <button
+              data-target="section2"
+              class="header__btn header__btn--orange current"
+            >
+              <span class="header__btn-text header__btn-text--orange"
+                >Тёплое</span
+              >
+            </button>
+            <button
+              data-target="section3"
+              class="header__btn header__btn--blue"
+            >
+              <span class="header__btn-text header__btn-text--blue"
+                >Сказка</span
+              >
+            </button>
+          </div>
+        </header>
+        <main class="main">
+          <div class="main__container">
+            <section id="section1" class="section">
+              <h3 class="section-1__time">
+                <time datetime="2025-01-23"
+                  >Сегодня, 23 января 2025 года (секция 1)</time
+                >
+              </h3>
+              <ul class="section-1__list">
+                <!-- Повторяющийся блок начало -->
+                <li class="section-1__item">
+                  <h4 class="section-1__item-title">Катамараны</h4>
+                  <div class="section-1__item-data">
+                    <div class="section-1__item-cont">
+                      <label for="cash" class="section-1__item-label"
+                        >Наличные</label
+                      >
+                      <input
+                        id="cash"
+                        class="section-1__item-input section-1__item-input--blue"
+                        type="number"
+                      />
+                    </div>
+
+                    <div class="section-1__item-cont">
+                      <label for="non-cash" class="section-1__item-label"
+                        >Безналичный расчет</label
+                      >
+                      <input
+                        id="non-cash"
+                        class="section-1__item-input section-1__item-input--red"
+                        type="number"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <!-- Повторяющийся блок конец -->
+                <!-- Повторяющийся блок начало -->
+                <li class="section-1__item">
+                  <h4 class="section-1__item-title">Сабы</h4>
+                  <div class="section-1__item-data">
+                    <div class="section-1__item-cont">
+                      <label for="cash" class="section-1__item-label"
+                        >Наличные</label
+                      >
+                      <input
+                        id="cash"
+                        class="section-1__item-input section-1__item-input--blue"
+                        type="number"
+                      />
+                    </div>
+
+                    <div class="section-1__item-cont">
+                      <label for="non-cash" class="section-1__item-label"
+                        >Безналичный расчет</label
+                      >
+                      <input
+                        id="non-cash"
+                        class="section-1__item-input section-1__item-input--red"
+                        type="number"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <!-- Повторяющийся блок конец -->
+                <!-- Повторяющийся блок начало -->
+                <li class="section-1__item">
+                  <h4 class="section-1__item-title">Бани</h4>
+                  <div class="section-1__item-data">
+                    <div class="section-1__item-cont">
+                      <label for="cash" class="section-1__item-label"
+                        >Наличные</label
+                      >
+                      <input
+                        id="cash"
+                        class="section-1__item-input section-1__item-input--blue"
+                        type="number"
+                      />
+                    </div>
+
+                    <div class="section-1__item-cont">
+                      <label for="non-cash" class="section-1__item-label"
+                        >Безналичный расчет</label
+                      >
+                      <input
+                        id="non-cash"
+                        class="section-1__item-input section-1__item-input--red"
+                        type="number"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <!-- Повторяющийся блок конец -->
+                <!-- Повторяющийся блок начало -->
+                <li class="section-1__item">
+                  <h4 class="section-1__item-title">Кемпинг дома</h4>
+                  <div class="section-1__item-data">
+                    <div class="section-1__item-cont">
+                      <label for="cash" class="section-1__item-label"
+                        >Наличные</label
+                      >
+                      <input
+                        id="cash"
+                        class="section-1__item-input section-1__item-input--blue"
+                        type="number"
+                      />
+                    </div>
+
+                    <div class="section-1__item-cont">
+                      <label for="non-cash" class="section-1__item-label"
+                        >Безналичный расчет</label
+                      >
+                      <input
+                        id="non-cash"
+                        class="section-1__item-input section-1__item-input--red"
+                        type="number"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <!-- Повторяющийся блок конец -->
+                <!-- Повторяющийся блок начало -->
+                <li class="section-1__item">
+                  <h4 class="section-1__item-title">Магниты дома</h4>
+                  <div class="section-1__item-data">
+                    <div class="section-1__item-cont">
+                      <label for="cash" class="section-1__item-label"
+                        >Наличные</label
+                      >
+                      <input
+                        id="cash"
+                        class="section-1__item-input section-1__item-input--blue"
+                        type="number"
+                      />
+                    </div>
+
+                    <div class="section-1__item-cont">
+                      <label for="non-cash" class="section-1__item-label"
+                        >Безналичный расчет</label
+                      >
+                      <input
+                        id="non-cash"
+                        class="section-1__item-input section-1__item-input--red"
+                        type="number"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <!-- Повторяющийся блок конец -->
+                <!-- Повторяющийся блок начало -->
+                <li class="section-1__item">
+                  <h4 class="section-1__item-title">Водные штуки дома</h4>
+                  <div class="section-1__item-data">
+                    <div class="section-1__item-cont">
+                      <label for="cash" class="section-1__item-label"
+                        >Наличные</label
+                      >
+                      <input
+                        id="cash"
+                        class="section-1__item-input section-1__item-input--blue"
+                        type="number"
+                      />
+                    </div>
+
+                    <div class="section-1__item-cont">
+                      <label for="non-cash" class="section-1__item-label"
+                        >Безналичный расчет</label
+                      >
+                      <input
+                        id="non-cash"
+                        class="section-1__item-input section-1__item-input--red"
+                        type="number"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <!-- Повторяющийся блок конец -->
+              </ul>
+              <ul class="section-1__list">
+                <!-- Повторяющийся блок начало -->
+                <li class="section-1__item">
+                  <h4 class="section-1__item-title">Катамараны</h4>
+                  <div class="section-1__item-data">
+                    <div class="section-1__item-cont">
+                      <label for="cash" class="section-1__item-label"
+                        >Наличные</label
+                      >
+                      <input
+                        id="cash"
+                        class="section-1__item-input section-1__item-input--blue"
+                        type="number"
+                      />
+                    </div>
+
+                    <div class="section-1__item-cont">
+                      <label for="non-cash" class="section-1__item-label"
+                        >Безналичный расчет</label
+                      >
+                      <input
+                        id="non-cash"
+                        class="section-1__item-input section-1__item-input--red"
+                        type="number"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <!-- Повторяющийся блок конец -->
+                <!-- Повторяющийся блок начало -->
+                <li class="section-1__item">
+                  <h4 class="section-1__item-title">Сабы</h4>
+                  <div class="section-1__item-data">
+                    <div class="section-1__item-cont">
+                      <label for="cash" class="section-1__item-label"
+                        >Наличные</label
+                      >
+                      <input
+                        id="cash"
+                        class="section-1__item-input section-1__item-input--blue"
+                        type="number"
+                      />
+                    </div>
+
+                    <div class="section-1__item-cont">
+                      <label for="non-cash" class="section-1__item-label"
+                        >Безналичный расчет</label
+                      >
+                      <input
+                        id="non-cash"
+                        class="section-1__item-input section-1__item-input--red"
+                        type="number"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <!-- Повторяющийся блок конец -->
+                <!-- Повторяющийся блок начало -->
+                <li class="section-1__item">
+                  <h4 class="section-1__item-title">Бани</h4>
+                  <div class="section-1__item-data">
+                    <div class="section-1__item-cont">
+                      <label for="cash" class="section-1__item-label"
+                        >Наличные</label
+                      >
+                      <input
+                        id="cash"
+                        class="section-1__item-input section-1__item-input--blue"
+                        type="number"
+                      />
+                    </div>
+
+                    <div class="section-1__item-cont">
+                      <label for="non-cash" class="section-1__item-label"
+                        >Безналичный расчет</label
+                      >
+                      <input
+                        id="non-cash"
+                        class="section-1__item-input section-1__item-input--red"
+                        type="number"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <!-- Повторяющийся блок конец -->
+                <!-- Повторяющийся блок начало -->
+                <li class="section-1__item">
+                  <h4 class="section-1__item-title">Кемпинг дома</h4>
+                  <div class="section-1__item-data">
+                    <div class="section-1__item-cont">
+                      <label for="cash" class="section-1__item-label"
+                        >Наличные</label
+                      >
+                      <input
+                        id="cash"
+                        class="section-1__item-input section-1__item-input--blue"
+                        type="number"
+                      />
+                    </div>
+
+                    <div class="section-1__item-cont">
+                      <label for="non-cash" class="section-1__item-label"
+                        >Безналичный расчет</label
+                      >
+                      <input
+                        id="non-cash"
+                        class="section-1__item-input section-1__item-input--red"
+                        type="number"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <!-- Повторяющийся блок конец -->
+                <!-- Повторяющийся блок начало -->
+                <li class="section-1__item">
+                  <h4 class="section-1__item-title">Магниты дома</h4>
+                  <div class="section-1__item-data">
+                    <div class="section-1__item-cont">
+                      <label for="cash" class="section-1__item-label"
+                        >Наличные</label
+                      >
+                      <input
+                        id="cash"
+                        class="section-1__item-input section-1__item-input--blue"
+                        type="number"
+                      />
+                    </div>
+
+                    <div class="section-1__item-cont">
+                      <label for="non-cash" class="section-1__item-label"
+                        >Безналичный расчет</label
+                      >
+                      <input
+                        id="non-cash"
+                        class="section-1__item-input section-1__item-input--red"
+                        type="number"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <!-- Повторяющийся блок конец -->
+                <!-- Повторяющийся блок начало -->
+                <li class="section-1__item">
+                  <h4 class="section-1__item-title">Водные штуки дома</h4>
+                  <div class="section-1__item-data">
+                    <div class="section-1__item-cont">
+                      <label for="cash" class="section-1__item-label"
+                        >Наличные</label
+                      >
+                      <input
+                        id="cash"
+                        class="section-1__item-input section-1__item-input--blue"
+                        type="number"
+                      />
+                    </div>
+
+                    <div class="section-1__item-cont">
+                      <label for="non-cash" class="section-1__item-label"
+                        >Безналичный расчет</label
+                      >
+                      <input
+                        id="non-cash"
+                        class="section-1__item-input section-1__item-input--red"
+                        type="number"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <!-- Повторяющийся блок конец -->
+              </ul>
+              <div class="section-1__upload">
+                <div class="section-1__upload-inner">
+                  <div class="section-1__upload-left">
+                    <h6 class="section-1__upload-title">Загрузить документы</h6>
+                    <p class="section-1__upload-subtitle">
+                      Финансовые документы и чеки.
+                    </p>
+                    <p class="section-1__upload-text">
+                      Пожалуйста, загрузите материалы одним из следующих
+                      способов: в виде одного архива формата .rar, содержащего
+                      все необходимые файлы, либо по отдельности, несколькими
+                      изображениями в формате .png.
+                    </p>
+                    <p class="section-1__upload-text">
+                      Убедитесь, что все файлы хорошо читаемы и имеют корректные
+                      названия, <br />
+                      чтобы избежать путаницы при обработке.
+                    </p>
+                  </div>
+                  <label for="upload" class="section-1__upload-label">
+                    <span class="section-1__upload-icon"
+                      ><img src="./img/doc-icon.svg" alt=""
+                    /></span>
+                    <span class="section-1__upload-label-text">
+                      Перетащите файлы сюда или нажмите чтобы выбрать файлы
+                    </span>
+                  </label>
+                </div>
+                <button class="section-1__upload-btn" type="submit">
+                  Потвердить
+                </button>
+              </div>
+            </section>
+            <section id="section2" class="section">
+              <h3 class="section-1__time">
+                <time datetime="2025-01-23">Сегодня, 23 января 2025 года</time>
+              </h3>
+              <ul class="section-1__list">
+                <!-- Повторяющийся блок начало -->
+                <li class="section-1__item">
+                  <h4 class="section-1__item-title">Катамараны</h4>
+                  <div class="section-1__item-data">
+                    <div class="section-1__item-cont">
+                      <label for="cash" class="section-1__item-label"
+                        >Наличные</label
+                      >
+                      <input
+                        id="cash"
+                        class="section-1__item-input section-1__item-input--blue"
+                        type="number"
+                      />
+                    </div>
+
+                    <div class="section-1__item-cont">
+                      <label for="non-cash" class="section-1__item-label"
+                        >Безналичный расчет</label
+                      >
+                      <input
+                        id="non-cash"
+                        class="section-1__item-input section-1__item-input--red"
+                        type="number"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <!-- Повторяющийся блок конец -->
+                <!-- Повторяющийся блок начало -->
+                <li class="section-1__item">
+                  <h4 class="section-1__item-title">Сабы</h4>
+                  <div class="section-1__item-data">
+                    <div class="section-1__item-cont">
+                      <label for="cash" class="section-1__item-label"
+                        >Наличные</label
+                      >
+                      <input
+                        id="cash"
+                        class="section-1__item-input section-1__item-input--blue"
+                        type="number"
+                      />
+                    </div>
+
+                    <div class="section-1__item-cont">
+                      <label for="non-cash" class="section-1__item-label"
+                        >Безналичный расчет</label
+                      >
+                      <input
+                        id="non-cash"
+                        class="section-1__item-input section-1__item-input--red"
+                        type="number"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <!-- Повторяющийся блок конец -->
+                <!-- Повторяющийся блок начало -->
+                <li class="section-1__item">
+                  <h4 class="section-1__item-title">Бани</h4>
+                  <div class="section-1__item-data">
+                    <div class="section-1__item-cont">
+                      <label for="cash" class="section-1__item-label"
+                        >Наличные</label
+                      >
+                      <input
+                        id="cash"
+                        class="section-1__item-input section-1__item-input--blue"
+                        type="number"
+                      />
+                    </div>
+
+                    <div class="section-1__item-cont">
+                      <label for="non-cash" class="section-1__item-label"
+                        >Безналичный расчет</label
+                      >
+                      <input
+                        id="non-cash"
+                        class="section-1__item-input section-1__item-input--red"
+                        type="number"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <!-- Повторяющийся блок конец -->
+                <!-- Повторяющийся блок начало -->
+                <li class="section-1__item">
+                  <h4 class="section-1__item-title">Кемпинг дома</h4>
+                  <div class="section-1__item-data">
+                    <div class="section-1__item-cont">
+                      <label for="cash" class="section-1__item-label"
+                        >Наличные</label
+                      >
+                      <input
+                        id="cash"
+                        class="section-1__item-input section-1__item-input--blue"
+                        type="number"
+                      />
+                    </div>
+
+                    <div class="section-1__item-cont">
+                      <label for="non-cash" class="section-1__item-label"
+                        >Безналичный расчет</label
+                      >
+                      <input
+                        id="non-cash"
+                        class="section-1__item-input section-1__item-input--red"
+                        type="number"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <!-- Повторяющийся блок конец -->
+                <!-- Повторяющийся блок начало -->
+                <li class="section-1__item">
+                  <h4 class="section-1__item-title">Магниты дома</h4>
+                  <div class="section-1__item-data">
+                    <div class="section-1__item-cont">
+                      <label for="cash" class="section-1__item-label"
+                        >Наличные</label
+                      >
+                      <input
+                        id="cash"
+                        class="section-1__item-input section-1__item-input--blue"
+                        type="number"
+                      />
+                    </div>
+
+                    <div class="section-1__item-cont">
+                      <label for="non-cash" class="section-1__item-label"
+                        >Безналичный расчет</label
+                      >
+                      <input
+                        id="non-cash"
+                        class="section-1__item-input section-1__item-input--red"
+                        type="number"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <!-- Повторяющийся блок конец -->
+                <!-- Повторяющийся блок начало -->
+                <li class="section-1__item">
+                  <h4 class="section-1__item-title">Водные штуки дома</h4>
+                  <div class="section-1__item-data">
+                    <div class="section-1__item-cont">
+                      <label for="cash" class="section-1__item-label"
+                        >Наличные</label
+                      >
+                      <input
+                        id="cash"
+                        class="section-1__item-input section-1__item-input--blue"
+                        type="number"
+                      />
+                    </div>
+
+                    <div class="section-1__item-cont">
+                      <label for="non-cash" class="section-1__item-label"
+                        >Безналичный расчет</label
+                      >
+                      <input
+                        id="non-cash"
+                        class="section-1__item-input section-1__item-input--red"
+                        type="number"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <!-- Повторяющийся блок конец -->
+              </ul>
+              <div class="section-1__upload">
+                <div class="section-1__upload-inner">
+                  <div class="section-1__upload-left">
+                    <h6 class="section-1__upload-title">Загрузить документы</h6>
+                    <p class="section-1__upload-subtitle">
+                      Финансовые документы и чеки.
+                    </p>
+                    <p class="section-1__upload-text">
+                      Пожалуйста, загрузите материалы одним из следующих
+                      способов: в виде одного архива формата .rar, содержащего
+                      все необходимые файлы, либо по отдельности, несколькими
+                      изображениями в формате .png.
+                    </p>
+                    <p class="section-1__upload-text">
+                      Убедитесь, что все файлы хорошо читаемы и имеют корректные
+                      названия, <br />
+                      чтобы избежать путаницы при обработке.
+                    </p>
+                  </div>
+                  <label for="upload" class="section-1__upload-label">
+                    <span class="section-1__upload-icon"
+                      ><img src="./img/doc-icon.svg" alt=""
+                    /></span>
+                    <span class="section-1__upload-label-text">
+                      Перетащите файлы сюда или нажмите чтобы выбрать файлы
+                    </span>
+                  </label>
+                </div>
+                <button class="section-1__upload-btn" type="submit">
+                  Потвердить
+                </button>
+              </div>
+            </section>
+            <section id="section3" class="section">
+              <h3 class="section-1__time">
+                <time datetime="2025-01-23"
+                  >Сегодня, 23 января 2025 года (секция 3)</time
+                >
+              </h3>
+              <ul class="section-1__list">
+                <!-- Повторяющийся блок начало -->
+                <li class="section-1__item">
+                  <h4 class="section-1__item-title">Катамараны</h4>
+                  <div class="section-1__item-data">
+                    <div class="section-1__item-cont">
+                      <label for="cash" class="section-1__item-label"
+                        >Наличные</label
+                      >
+                      <input
+                        id="cash"
+                        class="section-1__item-input section-1__item-input--blue"
+                        type="number"
+                      />
+                    </div>
+
+                    <div class="section-1__item-cont">
+                      <label for="non-cash" class="section-1__item-label"
+                        >Безналичный расчет</label
+                      >
+                      <input
+                        id="non-cash"
+                        class="section-1__item-input section-1__item-input--red"
+                        type="number"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <!-- Повторяющийся блок конец -->
+                <!-- Повторяющийся блок начало -->
+                <li class="section-1__item">
+                  <h4 class="section-1__item-title">Сабы</h4>
+                  <div class="section-1__item-data">
+                    <div class="section-1__item-cont">
+                      <label for="cash" class="section-1__item-label"
+                        >Наличные</label
+                      >
+                      <input
+                        id="cash"
+                        class="section-1__item-input section-1__item-input--blue"
+                        type="number"
+                      />
+                    </div>
+
+                    <div class="section-1__item-cont">
+                      <label for="non-cash" class="section-1__item-label"
+                        >Безналичный расчет</label
+                      >
+                      <input
+                        id="non-cash"
+                        class="section-1__item-input section-1__item-input--red"
+                        type="number"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <!-- Повторяющийся блок конец -->
+                <!-- Повторяющийся блок начало -->
+                <li class="section-1__item">
+                  <h4 class="section-1__item-title">Бани</h4>
+                  <div class="section-1__item-data">
+                    <div class="section-1__item-cont">
+                      <label for="cash" class="section-1__item-label"
+                        >Наличные</label
+                      >
+                      <input
+                        id="cash"
+                        class="section-1__item-input section-1__item-input--blue"
+                        type="number"
+                      />
+                    </div>
+
+                    <div class="section-1__item-cont">
+                      <label for="non-cash" class="section-1__item-label"
+                        >Безналичный расчет</label
+                      >
+                      <input
+                        id="non-cash"
+                        class="section-1__item-input section-1__item-input--red"
+                        type="number"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <!-- Повторяющийся блок конец -->
+                <!-- Повторяющийся блок начало -->
+                <li class="section-1__item">
+                  <h4 class="section-1__item-title">Кемпинг дома</h4>
+                  <div class="section-1__item-data">
+                    <div class="section-1__item-cont">
+                      <label for="cash" class="section-1__item-label"
+                        >Наличные</label
+                      >
+                      <input
+                        id="cash"
+                        class="section-1__item-input section-1__item-input--blue"
+                        type="number"
+                      />
+                    </div>
+
+                    <div class="section-1__item-cont">
+                      <label for="non-cash" class="section-1__item-label"
+                        >Безналичный расчет</label
+                      >
+                      <input
+                        id="non-cash"
+                        class="section-1__item-input section-1__item-input--red"
+                        type="number"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <!-- Повторяющийся блок конец -->
+                <!-- Повторяющийся блок начало -->
+                <li class="section-1__item">
+                  <h4 class="section-1__item-title">Магниты дома</h4>
+                  <div class="section-1__item-data">
+                    <div class="section-1__item-cont">
+                      <label for="cash" class="section-1__item-label"
+                        >Наличные</label
+                      >
+                      <input
+                        id="cash"
+                        class="section-1__item-input section-1__item-input--blue"
+                        type="number"
+                      />
+                    </div>
+
+                    <div class="section-1__item-cont">
+                      <label for="non-cash" class="section-1__item-label"
+                        >Безналичный расчет</label
+                      >
+                      <input
+                        id="non-cash"
+                        class="section-1__item-input section-1__item-input--red"
+                        type="number"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <!-- Повторяющийся блок конец -->
+                <!-- Повторяющийся блок начало -->
+                <li class="section-1__item">
+                  <h4 class="section-1__item-title">Водные штуки дома</h4>
+                  <div class="section-1__item-data">
+                    <div class="section-1__item-cont">
+                      <label for="cash" class="section-1__item-label"
+                        >Наличные</label
+                      >
+                      <input
+                        id="cash"
+                        class="section-1__item-input section-1__item-input--blue"
+                        type="number"
+                      />
+                    </div>
+
+                    <div class="section-1__item-cont">
+                      <label for="non-cash" class="section-1__item-label"
+                        >Безналичный расчет</label
+                      >
+                      <input
+                        id="non-cash"
+                        class="section-1__item-input section-1__item-input--red"
+                        type="number"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <!-- Повторяющийся блок конец -->
+              </ul>
+              <div class="section-1__upload">
+                <div class="section-1__upload-inner">
+                  <div class="section-1__upload-left">
+                    <h6 class="section-1__upload-title">Загрузить документы</h6>
+                    <p class="section-1__upload-subtitle">
+                      Финансовые документы и чеки.
+                    </p>
+                    <p class="section-1__upload-text">
+                      Пожалуйста, загрузите материалы одним из следующих
+                      способов: в виде одного архива формата .rar, содержащего
+                      все необходимые файлы, либо по отдельности, несколькими
+                      изображениями в формате .png.
+                    </p>
+                    <p class="section-1__upload-text">
+                      Убедитесь, что все файлы хорошо читаемы и имеют корректные
+                      названия, <br />
+                      чтобы избежать путаницы при обработке.
+                    </p>
+                  </div>
+                  <label for="upload" class="section-1__upload-label">
+                    <span class="section-1__upload-icon"
+                      ><img src="./img/doc-icon.svg" alt=""
+                    /></span>
+                    <span class="section-1__upload-label-text">
+                      Перетащите файлы сюда или нажмите чтобы выбрать файлы
+                    </span>
+                  </label>
+                </div>
+                <button class="section-1__upload-btn" type="submit">
+                  Потвердить
+                </button>
+              </div>
+            </section>
+          </div>
+        </main>
+        <footer class="footer">
+          <div class="footer__inner">
+            <span>Версия 1.1</span>
+            <a href="/">Пользовательское соглашение</a>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script>
+      const buttons = document.querySelectorAll(".header__btn");
+      const sections = document.querySelectorAll("section");
+
+      buttons.forEach((button) => {
+        button.addEventListener("click", () => {
+          // Убираем класс current с остальных кнопок
+          buttons.forEach((btn) => btn.classList.remove("current"));
+          // Добавляем класс current к нажатой кнопке
+          button.classList.add("current");
+
+          // Скрываем все секции
+          sections.forEach((section) => {
+            section.style.display = "none";
+          });
+
+          // Показываем только соответствующую секцию
+          const targetSection = document.getElementById(
+            button.getAttribute("data-target")
+          );
+          targetSection.style.display = "block";
+        });
+      });
+
+      // Изначально показываем только активную секцию
+      sections.forEach((section) => {
+        section.style.display = "none";
+      });
+      document.getElementById("section2").style.display = "block"; // Секция по умолчанию
+    </script>
+  </body>
+</html>
