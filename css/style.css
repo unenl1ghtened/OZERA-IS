@@ -193,7 +193,7 @@ footer {
 }
 
 .section {
-  height: calc(100vh - 120px); /* 120px - это высота шапки и футера */
+  height: calc(100vh - 188px); /* 188px - это высота шапки и футера */
   overflow-y: auto;
 }
 
@@ -202,7 +202,7 @@ footer {
 }
 .section-1__list {
   display: flex;
-  gap: 20px 42px;
+  gap: 20px 3vw;
   flex-wrap: wrap;
   margin-bottom: 50px;
 }
