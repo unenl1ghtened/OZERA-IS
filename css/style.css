@@ -30,6 +30,8 @@ body {
   flex-grow: 1;
   overflow: hidden;
   position: relative;
+  height: calc(90vh - 188px);
+  overflow-y: auto;
 }
 
 .max-width {
@@ -190,11 +192,6 @@ footer {
 
 .main__container {
   padding: 18px 20px 16px 16px;
-}
-
-.section {
-  height: calc(90vh - 188px);
-  overflow-y: auto;
 }
 
 .section-1__time {
